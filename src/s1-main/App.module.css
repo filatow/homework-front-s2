@@ -25,7 +25,7 @@
     max-width: 1280px; /* 1280px */
     margin-left: auto;
     margin-right: auto;
-    padding: 10px var(--chat_side_padding);
+    padding: 40px var(--chat_side_padding) 10px;
     font-family: var(--basic_font_family);
     font-size: 22px;
     line-height: 27px;

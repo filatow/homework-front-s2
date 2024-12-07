@@ -6,6 +6,6 @@
 .wrapper {
     align-items: center;
     display: flex;
-    height: calc(100vh - var(--header_height));
+    height: calc(100vh - var(--header-height));
     justify-content: center;
 }

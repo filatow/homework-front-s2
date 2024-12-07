@@ -1,13 +1,14 @@
 .input {
-    width: 372px;
-    height: 36px;
-    margin-right: 12px;
-    border: 1px solid #D1D1D1;
-    border-radius: 5px;
-    padding: 8px 12px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+  width: 271px;
+  height: 36px;
+  /*margin-right: 12px;*/
+  margin-bottom: 16px;
+  border: 1px solid #D1D1D1;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .input:focus {
@@ -15,25 +16,25 @@
 }
 
 .inputWrapper {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .superInput {
 }
 
 .errorInput {
-    border-color: #cc1439;
+  border-color: #cc1439;
 }
 
 .errorInput:focus {
-    outline-color: #cc1439;
+  outline-color: #cc1439;
 }
 
 .error {
-    margin-bottom: 5px;
-    font-family: var(--basic-font-family);
-    color: #cc1439;
-    font-size: 10px;
-    line-height: 12px;
+  margin-bottom: 5px;
+  font-family: var(--basic-font-family);
+  color: #cc1439;
+  font-size: 10px;
+  line-height: 12px;
 }

@@ -1,7 +1,13 @@
 .spanBlock {
+  display: flex;
+  margin-bottom: 22px;
 }
 
 .span {
+  font-family: var(--basic-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #0080ff;
 }
 
 .input {

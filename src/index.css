@@ -1,5 +1,6 @@
 :root {
   --basic-font-family: 'Montserrat', sans-serif;
+  --secondary-font-family: 'Roboto', sans-serif;
 
   --header-height: 60px;
   --chat-side-padding: 70px;

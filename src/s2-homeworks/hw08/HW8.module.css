@@ -1,10 +1,14 @@
 .item {
+  height: 48px;
+  border-collapse: collapse;
 }
 
 .item:last-of-type {
 }
 
 .users {
+  width: 606px;
+  margin-top: 18px;
 }
 
 .buttonsContainer {
@@ -14,10 +18,32 @@
 }
 
 .thead {
+  height: 36px;
+  background-color: #E5E5E5;
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 
 .nameCol {
+  width: 50%;
+  border-bottom: 1px solid #E5E5E5;
+  padding-left: 17px;
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
 }
 
 .ageCol {
+  width: 50%;
+  padding-left: 17px;
+  border-bottom: 1px solid #E5E5E5;
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
 }

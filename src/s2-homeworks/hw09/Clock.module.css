@@ -5,10 +5,18 @@
 }
 
 .watch {
+  margin-bottom: 8px;
+  font-family: var(--basic-font-family);
+  font-size: 20px;
 }
 
 .watch strong {
+  font-weight: 600;
 }
 
 .more {
+  margin-bottom: 27px;
+  font-family: var(--basic-font-family);
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
 }

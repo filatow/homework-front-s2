@@ -9,6 +9,7 @@
 
   --color-primary: #ffffff;
   --color-secondary: #000000;
+  --color-info: rgba(77, 77, 77, 1);
   --bgc-primary: #0066cc;
   --bgc-secondary: #f5f7fb;
 }

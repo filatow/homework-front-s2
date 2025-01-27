@@ -1,7 +1,14 @@
 .tech {
-
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .loading {
-
+  width: 271px;
+  color: var(--color-info);
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  text-align: right;
 }

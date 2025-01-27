@@ -28,8 +28,7 @@ type SuccessResponse = {
 }
 
 type Success = boolean | undefined | null
-// type Errors = '400' | '500' // было
-type Errors = 400 | 500 // стало
+type ErrorStatus = 400 | 500
 
 const HW13 = () => {
   const [code, setCode] = useState('')
@@ -61,12 +60,12 @@ const HW13 = () => {
       })
       .catch((error: AxiosError<Response>) => {
         // дописать
-        const errorImages: Record<Errors, string> = {
+        const errorImages: Record<ErrorStatus, string> = {
           400: error400,
           500: error500,
         }
         if (error.response?.data) {
-          setImage(errorImages[error.response.status as Errors])
+          setImage(errorImages[error.response.status as ErrorStatus])
           setCode(`Ошибка ${error.response.status}!`)
           setText(error.response.data.errorText)
           setInfo(error.response.data.info)

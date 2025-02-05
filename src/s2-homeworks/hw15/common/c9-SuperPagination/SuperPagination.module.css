@@ -1,11 +1,22 @@
 .pagination {
-    display: flex;
+  display: flex;
+  align-items: center;
 }
 
 .text1 {
-
+  display: flex;
+  align-items: baseline;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .text2 {
-
+  margin-left: 6px;
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  font-size: 14px;
 }

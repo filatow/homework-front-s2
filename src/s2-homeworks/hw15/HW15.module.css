@@ -1,5 +1,5 @@
 .tech {
-    width: 50vw;
+  width: 50vw;
 }
 
 .developer {
@@ -7,21 +7,50 @@
 }
 
 .techHeader {
-    width: 50vw;
+  width: 50vw;
+  display: flex;
+  align-items: center;
 }
 
 .developerHeader {
-
+  display: flex;
+  align-items: center;
 }
 
 .row {
-    display: flex;
+  display: flex;
+  align-items: center;
+  height: 49px;
+  padding-left: 17px;
+  border-bottom: 1px solid var(--basic-grey);
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
 }
 
 .rowHeader {
-    display: flex;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  margin-top: 36px;
+  padding-left: 17px;
+  background-color: var(--basic-grey);
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .loading {
-
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
 }

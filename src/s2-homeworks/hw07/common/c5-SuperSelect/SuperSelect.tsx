@@ -12,6 +12,7 @@ type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectE
 type SuperSelectPropsType = DefaultSelectPropsType & {
   options?: Array<Option>
   onChangeOption?: (option: number) => void
+  selectStyles?: React.CSSProperties
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = (
@@ -20,6 +21,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     className,
     onChange,
     onChangeOption,
+    selectStyles,
     ...restProps
   }
 ) => {
@@ -47,6 +49,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     <select
       className={finalSelectClassName}
       onChange={onChangeCallback}
+      style={selectStyles}
       {...restProps}
     >
       {mappedOptions}
